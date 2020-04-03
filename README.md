@@ -1,2 +1,3 @@
 # Ackerman2
-newbie
+*this is my first github*
+>newbie
