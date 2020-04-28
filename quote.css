@@ -1,0 +1,77 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url("wallpaper/black.jpg");
+    height: 100%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+  
+* {
+    box-sizing: border-box;
+}
+
+#menu li{
+    display: inline-table;
+    float: right;
+    width: 10%;
+    text-align: center;
+    padding: 5px;
+    list-style-type: none;
+    background-color: rgba(135, 228, 189, 0.918);
+}
+  
+#menu li>a{
+    color: rgb(20, 19, 19);
+    text-decoration: none;
+}  
+  
+a:hover, a:active {
+    background-color: rgba(1, 8, 4, 0.507);
+    text-decoration: none;
+}
+  
+#text1{
+    font-family:courier;
+    color: lemonchiffon;
+    font-size: 15px;
+    text-shadow: 2px 2px 5px rgb(135, 228, 189, 0.918);
+    margin-left: 20px;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container > div {
+    background-color: rgba(231, 236, 238, 0.904);
+    font-size: 15px;
+    margin: 20px;
+    padding: 10px;
+    width: 40%;
+    border: solid blueviolet 1px;
+}
+
+footer {
+    position: absolute;    
+    width: 100%;
+    background-color: rgba(135, 228, 189, 0.918);
+    color: black;
+    font-size: 50%; 
+    margin-top: 20px;
+  }
+  
+.footer1 {
+    float: left;
+    margin-left: 10px;
+}
+  
+.footer2 a {
+    float: right;
+    text-decoration: none;
+    color: black;
+    display: inline-table;
+    margin-right: 10px;
+    list-style-type: none;
+}

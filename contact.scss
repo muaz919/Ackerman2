@@ -1,0 +1,47 @@
+%menu {
+    backdrop-filter: blur(8px);
+    color: rgb(8, 8, 8);
+    font-weight: bold;
+    border: 3px solid #f1f1f1;
+    text-align: center;
+    position: static;
+    width: 100%;
+    padding: 20px;
+}
+
+%list {
+    font-family: sans-serif;
+    font-size: 18px;
+    text-align: center;
+    list-style-type: none;
+}
+
+.background {
+    background-image: url("wallpaper/background.jpg");
+    height: 100%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.main {
+    @extend %menu;
+    border: rgb(8, 8, 8);
+}
+
+div {
+    h1 {
+        text-align: center;
+        margin-top: 20px;
+    }
+    li {
+        @extend %list;
+        color: whitesmoke;
+    }
+}
+
+.form {
+    width: 50%;
+    margin-top: 20px;
+    color: #f1f1f1;
+}

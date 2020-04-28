@@ -1,0 +1,81 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url("wallpaper/minimalist.jpg");
+    height: 100%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+  
+  * {
+      box-sizing: border-box;
+  }
+  
+  #menu li{
+      display: inline-table;
+      float: right;
+      width: 10%;
+      text-align: center;
+      padding: 5px;
+      list-style-type: none;
+      background-color: rgba(135, 228, 189, 0.212);
+  }
+    
+  #menu li>a{
+      color: rgb(20, 19, 19);
+      text-decoration: none;
+  }  
+    
+  a:hover, a:active {
+      background-color: rgba(96, 185, 136, 0.507);
+      text-decoration: none;
+  }
+    
+  #text1{
+      font-family:courier;
+      font-size: 15px;
+      text-shadow: 2px 2px 5px rgb(13, 228, 210);
+      margin-left: 20px;
+  }
+  .container {
+    padding: 2rem 0rem;
+  }
+
+  h1{
+    text-align:center
+}
+  
+  h4 {
+    margin: 2rem 0rem 1rem;
+  }
+  
+  .table-image th {
+      vertical-align: middle;
+    }
+  
+    .table-image td {
+        vertical-align: middle;
+    }
+
+    footer {
+        position: absolute;    
+        width: 100%;
+        background-color: rgba(124, 209, 150, 0.356);
+        color: olive;
+        font-size: 50%; 
+        margin-top: 40px;
+    }
+    
+    .footer1 {
+        float: left;
+        margin-left: 10px;
+    }
+    
+    .footer2 a {
+        float: right;
+        text-decoration: none;
+        color: olive;
+        display: inline-table;
+        margin-right: 10px;
+        list-style-type: none;
+    }
